@@ -1,6 +1,6 @@
 // OSX:  clang opensslversion.c -I /usr/local/opt/openssl/include -L /usr/local/opt/openssl/lib -lssl -lcrypto
 // OSX uses brewed openssl
-// Linux: clang-7 opensslversion.c -lssl
+// Linux: clang-7 opensslversion.c -lssl -lcrypto
 #include <openssl/ssl.h>
 #include <openssl/hmac.h>
 #include <openssl/sha.h>
